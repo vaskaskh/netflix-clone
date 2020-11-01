@@ -1,0 +1,40 @@
+.nav{
+    cursor: pointer;
+    padding: 10px;
+    position: fixed;
+    background-color: rgba(17, 17, 17, 0.164);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &_logo{
+        object-fit: contain;
+        width: 80px;
+
+    }
+}
+.nav_signIn{
+    border: none;
+    padding: 5px;
+    background-color: #e6020c;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+
+}
+.nav_signOut{
+    border: none;
+    padding: 5px;
+    background-color: #e6020c;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    text-decoration: none;
+}

@@ -1,0 +1,95 @@
+.signup{
+    background-image: url('https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg');
+    height: 100vh;
+    color: white;
+    & img{
+        padding: 45px;
+        object-fit: contain;
+        width: 250px;
+    }
+}
+
+.netflix_signup_lbl{
+    margin-bottom: 25px;
+}
+.signup_detail{
+    margin: auto;
+    background-color: #0b0c0ce1;
+    max-width: 450px;
+    padding: 55px;
+    border-radius: 5px;
+    margin-top: 3px;
+    box-shadow: 150px 10px 150px rgba(0, 0, 0, 0.925);
+}
+.signup_form{
+    display: flex;
+    flex-direction: column;
+
+    & button{
+        color: white;  
+        outline: none;
+        text-decoration: none;
+        border: none;
+        background-color: #E50914;
+        border-radius: 15px;
+        height: 35px;
+        cursor: pointer;
+        font-size: 16px;
+        
+    
+    &:active{
+        color: #E50914;
+        background-color: white;
+    }
+    }
+}
+.input-option{
+    margin-bottom: 25px;
+    background-color: #333333;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.link-to-signin{
+    margin-top: 18px;
+    color:#7b8c8c;
+    font-size: 16px;
+}
+.actual-signin-link{
+
+    outline: none;
+    text-decoration: none;
+    color: lightcyan;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 7.5px;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+@media(max-width: 990px){
+    .signup{
+        background-image: none;
+        background-color: #050505;
+        height: 100vh;
+    }
+    .signup_detail{
+        max-width: 100%;  
+        background-color: #050505;
+        box-shadow:none;
+ 
+        margin-top: 100px;
+
+
+    }
+    .input-option{
+        background-color: #333333;
+        color: #7B8C8C;
+        outline: none;
+        border: none;
+    }
+}
